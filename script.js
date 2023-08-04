@@ -1,11 +1,11 @@
 //your JS code here. If required.
-const count = document.getElementById("counter");
-
- let counter = 0;
-
-function butnfun(){
- 
-    counter = counter+1;
-  alert(count.innerHTML=counter);
+let counter=document.getElementById("counter");
+let incrementBtn=document.getElementById("incrementBtn");
+let count=0;
+function increment(){
+	alert(count);
+	count=count+1;
+	counter.innerText=count
+	
 }
 
