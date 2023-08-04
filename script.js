@@ -9,4 +9,3 @@ function butnfun(){
   alert(count.innerHTML=counter);
 }
 
-}
