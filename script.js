@@ -7,5 +7,6 @@ function butnfun(){
  
     counter = counter+1;
   alert(count.innerHTML=counter);
+}
 
 }
